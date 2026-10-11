@@ -1,13 +1,9 @@
 # Wasteland Run — Project One Storyboard
 
 ## Theme and Storyline
-
-**Theme:** Post-apocalyptic survival.
-
-**Storyline:** After a disaster leaves the region without power and supplies, the player leaves a small survivor shelter to search nearby ruins for supplies. The player must collect seven items to survive and prepare the shelter. The Raider Leader is hiding in the Command Bunker. The player wins by collecting all seven items before entering the Command Bunker. Entering the bunker too early means the Raider Leader catches the player and the game ends in a loss.
+**Theme:** Post-apocalyptic survival. After a disaster leaves the region without power and supplies, the player searches nearby ruins for seven supplies. The Raider Leader is hiding in the Command Bunker. Entering the bunker with all seven items wins the game; entering without all seven loses.
 
 ## Rooms
-
 1. Survivor Shelter — start room
 2. Abandoned Store
 3. Clinic
@@ -19,7 +15,6 @@
 9. Command Bunker — villain room
 
 ## Items
-
 - Abandoned Store: Canned Food
 - Clinic: Medical Kit
 - Radio Tower: Radio Battery
@@ -28,28 +23,21 @@
 - Water Plant: Water Filter
 - Highway Checkpoint: Protective Gear
 
-The Survivor Shelter has no item because it is the start room. The Command Bunker has no item because it contains the villain.
-
-## Villain
-
-The Raider Leader controls the Command Bunker and threatens anyone searching the ruins. The player must collect every item before entering the bunker.
+The Survivor Shelter has no item. The Command Bunker contains the villain and has no item.
 
 ## Room Connections
-
-The following directions match the room map. Connections are two-way where an adjacent pair is listed.
-
+All connections are two-way and match the map and movement pseudocode.
 - Survivor Shelter: north to Abandoned Store; east to Clinic.
 - Abandoned Store: south to Survivor Shelter; east to Radio Tower.
 - Clinic: west to Survivor Shelter; east to Gas Station.
 - Radio Tower: west to Abandoned Store; east to Ruined School.
 - Gas Station: west to Clinic; east to Water Plant.
 - Ruined School: west to Radio Tower; east to Highway Checkpoint.
-- Water Plant: west to Gas Station; south to Command Bunker.
+- Water Plant: west to Gas Station; east to Command Bunker.
 - Highway Checkpoint: west to Ruined School.
-- Command Bunker: north to Water Plant.
+- Command Bunker: west to Water Plant.
 
 ## Ending Conditions
-
-- **Win:** The player enters the Command Bunker while carrying all seven items.
-- **Loss:** The player enters the Command Bunker with fewer than seven items.
-- **Quit:** The player enters `quit` at the movement prompt.
+- Win: enter the Command Bunker with all seven items.
+- Loss: enter the Command Bunker with fewer than seven items.
+- Quit: enter `quit` at the movement prompt.
