@@ -36,7 +36,7 @@ The Raider Leader controls the Command Bunker and threatens anyone searching the
 
 ## Room Connections
 
-Each connection is two-way. Use the direction shown to travel between the rooms.
+The following directions match the room map. Connections are two-way where an adjacent pair is listed.
 
 - Survivor Shelter: north to Abandoned Store; east to Clinic.
 - Abandoned Store: south to Survivor Shelter; east to Radio Tower.
