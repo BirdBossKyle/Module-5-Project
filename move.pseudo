@@ -21,7 +21,7 @@ START game
 
         ELSE IF command = "get item" THEN
             CALL get_item(current_room, inventory)
-            // When get_item returns, continue the WHILE loop.
+            // When get_item returns, the loop asks for the next command.
 
         ELSE IF command = "north" OR command = "south" OR command = "east" OR command = "west" THEN
 
